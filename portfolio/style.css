@@ -24,7 +24,7 @@
  .logo{
     position:relative;
     font-size:35px;
-    color:white;
+    color:blue;
     text-decoration:none;
     font-weight:600;
  }
@@ -37,14 +37,14 @@
     height:100%;
     background:#081b29;
     animation:showRight 1s ease forwards;
-    animation-delay:.4s;
+    animation-delay:.3s;
   }
     
  .navbar a{
-    font-size:18px;
-    color:#ededed;
+    font-size:20px;
+    color:blue;#ededed
     text-decoration:none;
-    font-weight:500;
+    font-weight:600;
     margin-left:35px;
     transition:.3s;
  }
@@ -54,7 +54,7 @@
  }
  .home{
    height:100vh;
-   background:url('/home/rgukt/Desktop/img2.jpg') no-repeat;
+   background:url('https://media.istockphoto.com/id/904465862/photo/young-businesswoman-using-laptop-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=qixGTKiYb93iG6uO-2bMKeB2WarJf-IkJkttUfAFqqM=') no-repeat;
    background-size:cover;
    background-position:center;
    display:flex;
@@ -242,7 +242,7 @@
     width:500px;
     height:100%;
     background:transparent;
-    transition:3s;
+    transition:2s;
     animation:manipActiveHover .1s forwards;
     animation-delay:4s;
     pointer-events:none;
